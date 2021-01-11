@@ -7,7 +7,7 @@ cost_limit = 2000  # 一日何円までか
 protein_lower_limit = 120  # タンパク質の摂取目標
 fat_lower_limit = 50  # 脂質の摂取目標
 calorie_limit = 1500  # カロリー制限
-repeat_limit = 3  # 同じものを一日何度まで食べるか
+repeat_limit = 1  # 同じものを一日何度まで食べるか
 
 df = pd.read_csv('meal.csv')
 names = df.name
